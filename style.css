@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+}
+
+.navBar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    /* padding: 0 10px 0 10px; */
+    width: 80%;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: violet;
+}
