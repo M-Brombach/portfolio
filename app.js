@@ -42,26 +42,26 @@ $(() => {
 
 
     let projectIndex = 0
-    let numOfProjects = $('.project-list').children().length - 1
+    let numOfProjects = $('.projectList').children().length - 1
     $('.next').on('click', () => {
-        $('.project-list').children().eq(projectIndex).css('display', 'none')
+        $('.projectList').children().eq(projectIndex).css('display', 'none')
         if (projectIndex < numOfProjects) {
             projectIndex++
         } else {
             projectIndex = 0
         }
-        $('.project-images').children().eq(projectIndex).css('display', 'block')
+        $('.projectList').children().eq(projectIndex).css('display', 'block')
     })
 
 
     $('.previous').on('click', () => {
-        $('.project-images').children().eq(projectIndex).css('display', 'none')
+        $('.projectList').children().eq(projectIndex).css('display', 'none')
         if (projectIndex > 0) {
             projectIndex--
         } else {
             projectIndex = numOfProjects
         }
-        $('.project-images').children().eq(projectIndex).css('display', 'block')
+        $('.projectList').children().eq(projectIndex).css('display', 'block')
  
     })
 
