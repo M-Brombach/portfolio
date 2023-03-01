@@ -3,14 +3,16 @@ body {
     text-align: center;
     
 }
-
+ul {
+    list-style-type: none;
+}
 .navBar {
     display: flex;
-    list-style-type: none;
     justify-content: space-around;
     background-color: aquamarine;
     padding: 15px;
     border-radius: 10px;
+    width: 80%;
 }
 
 nav {
@@ -28,11 +30,6 @@ nav {
 	border-radius: 50%;
 	text-align: center;
 	box-shadow: 1px 1px #fa8d8e;
-}
-
-nav ul {
-    /* padding: 0 10px 0 10px; */
-    width: 80%;
 }
 
 nav button {
@@ -129,13 +126,19 @@ nav button:hover {
 	display: block;
 }
 
-
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.footerDiv {
+.footerItems {
+    display: flex;
+    justify-content: space-around;
     background-color: aquamarine;
+    padding: 15px;
+    border-radius: 10px;
     width: 80%;
 }
+
