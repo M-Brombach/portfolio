@@ -58,6 +58,9 @@ nav button:hover {
     width: 85%;
 }
 
+#resumeDiv {
+    width: 80%;
+}
 .linkModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -94,6 +97,9 @@ nav button:hover {
 
 @media (max-width: 600px){
     .navBar {flex-direction: column;
+    }
+    #resumeDiv {
+        width: 100%;
     }
 }
 
