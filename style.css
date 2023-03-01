@@ -53,6 +53,13 @@ nav button:hover {
     text-align: center;
     justify-content: center;
 }
+
+#homeDiv p {
+    font-size: 24px;
+}
+.homeBackground {
+    width: 85%;
+}
 .linkModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -121,9 +128,14 @@ nav button:hover {
 	display: block;
 }
 
-#resumeDiv embed {
+
+
+footer {
+    background-color: aquamarine;
+}
+
+.footerDiv {
     display: flex;
-    /* width: 100%; */
-    height: 600px;
-    view: fit;
+
+    justify-content: space-around;
 }
