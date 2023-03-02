@@ -57,7 +57,9 @@ nav button:hover {
 .homeBackground {
     width: 85%;
 }
-
+#bioDiv {
+    width: 80%;
+}
 #resumeDiv {
     width: 80%;
 }
