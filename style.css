@@ -128,7 +128,19 @@ nav button:hover {
 	color: white;
 }
 
-.projectList h3:first-of-type {
+.projectList {
+    width: 80%;
+	background: #fa8d8e;
+	padding: 10px;
+}
+
+.projectList img {
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+
+.projectList img:first-of-type {
 	display: block;
 }
 
