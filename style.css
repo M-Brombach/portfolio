@@ -137,10 +137,12 @@ nav button:hover {
 .projectList img {
 	width: 100%;
 	border-radius: 10px;
-	display: none;
+	/* display: none; */
 }
-
-.projectList img:first-of-type {
+.projectList a {
+    display: none;
+}
+.projectList a:first-of-type {
 	display: block;
 }
 
